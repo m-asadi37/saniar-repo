@@ -1,10 +1,8 @@
 package pack1;
 
 import java.io.File;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeSet;
+import java.io.FileWriter;
+import java.util.*;
 
 public class Main {
 
@@ -20,7 +18,7 @@ public class Main {
         System.out.println(set1);
     }
 
-    public static void main(String[] args) {
+    public static void main2(String[] args) {
         //key-value pair
         Map<Integer, String> map1 = new HashMap<>();
         map1.put(4, "saniar");
